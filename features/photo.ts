@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { RootState } from "../app/store";
+import { RootState } from "./app/store";
 import { Photo } from "../types/photo";
 
 export const fetchPhotos = createAsyncThunk("/photos/fetchPhotos", async () => {

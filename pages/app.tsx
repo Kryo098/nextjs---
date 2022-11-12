@@ -1,5 +1,5 @@
 import React, { useCallback } from "react";
-import { useSelector, AppDispatch } from "../app/store";
+import { useSelector, AppDispatch } from "../features/app/store";
 import { fetchPhotos, selectPhotos } from "../features/photo";
 import { useDispatch } from "react-redux";
 

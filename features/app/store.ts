@@ -1,6 +1,6 @@
 import { configureStore, createSelector } from "@reduxjs/toolkit";
 import { useSelector as rawUseSelector, TypedUseSelectorHook } from "react-redux";
-import { photoSlice } from "../features/photo";
+import { photoSlice } from "../photo";
 
 export const store = configureStore({
   reducer: {
